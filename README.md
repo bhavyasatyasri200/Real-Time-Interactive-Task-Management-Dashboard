@@ -159,12 +159,6 @@ npm test
 └─────────────────────────────────────────┘
 ```
 
----
-
-## 📸 Screenshots
-
-> Add screenshots from your running application here.
-> Desktop (1280px), Tablet (768px), and Mobile (375px) views required.
 
 ---
 
