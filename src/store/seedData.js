@@ -1,0 +1,77 @@
+/**
+ * Seed data — initial tasks loaded if localStorage is empty.
+ * Provides a realistic demo state on first launch.
+ */
+
+export const seedTasks = [
+  {
+    id: 'seed-1',
+    title: 'Design system color palette',
+    description: 'Create a comprehensive color palette including primary, secondary, and semantic colors for the design system.',
+    priority: 'High',
+    assignee: 'Alice Johnson',
+    dueDate: '2026-07-05',
+    column: 'todo',
+    createdAt: '2026-06-20T09:00:00.000Z',
+  },
+  {
+    id: 'seed-2',
+    title: 'Implement authentication flow',
+    description: 'Build login, register, and password reset screens with JWT-based backend integration.',
+    priority: 'High',
+    assignee: 'Bob Smith',
+    dueDate: '2026-07-10',
+    column: 'in-progress',
+    createdAt: '2026-06-21T10:00:00.000Z',
+  },
+  {
+    id: 'seed-3',
+    title: 'Write unit tests for API utils',
+    description: 'Achieve 90% test coverage on the API utilities module using Jest.',
+    priority: 'Medium',
+    assignee: 'Alice Johnson',
+    dueDate: '2026-07-15',
+    column: 'todo',
+    createdAt: '2026-06-22T11:00:00.000Z',
+  },
+  {
+    id: 'seed-4',
+    title: 'Optimize database queries',
+    description: 'Profile slow queries and add indexes to reduce average response time below 100ms.',
+    priority: 'Medium',
+    assignee: 'Charlie Brown',
+    dueDate: '2026-07-08',
+    column: 'in-progress',
+    createdAt: '2026-06-23T12:00:00.000Z',
+  },
+  {
+    id: 'seed-5',
+    title: 'Set up CI/CD pipeline',
+    description: 'Configure GitHub Actions workflow for automated testing and deployment to staging environment.',
+    priority: 'Low',
+    assignee: 'Diana Prince',
+    dueDate: '2026-07-20',
+    column: 'done',
+    createdAt: '2026-06-24T08:00:00.000Z',
+  },
+  {
+    id: 'seed-6',
+    title: 'Create API documentation',
+    description: 'Document all REST endpoints using OpenAPI / Swagger specification.',
+    priority: 'Low',
+    assignee: 'Bob Smith',
+    dueDate: '2026-07-25',
+    column: 'done',
+    createdAt: '2026-06-25T09:30:00.000Z',
+  },
+  {
+    id: 'seed-7',
+    title: 'Mobile responsive layout',
+    description: 'Ensure all pages render correctly on viewport widths below 768px using CSS media queries.',
+    priority: 'High',
+    assignee: 'Charlie Brown',
+    dueDate: '2026-07-12',
+    column: 'todo',
+    createdAt: '2026-06-26T07:00:00.000Z',
+  },
+];

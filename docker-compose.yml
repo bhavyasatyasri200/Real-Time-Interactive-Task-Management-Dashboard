@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  dashboard-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: taskflow-dashboard
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    healthcheck:
+      # Verifies the nginx static server is responding to HTTP requests
+      test: ["CMD", "wget", "-qO-", "http://localhost:80/"]
+      interval: 30s
+      timeout: 10s
+      start_period: 15s
+      retries: 3
